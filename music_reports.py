@@ -57,12 +57,12 @@ def convert_seconds_to_minutes(seconds: int) -> float:
 
 def get_albums_by_genre(albums, genre):
     """
-        Get albums by genre
-        :param list albums: albums' data
-        :param str genre: genre to filter by
-        :returns: all albums of given genre
-        :rtype: list
-        """
+    Get albums by genre
+    :param list albums: albums' data
+    :param str genre: genre to filter by
+    :returns: all albums of given genre
+    :rtype: list
+    """
 
     selected_genre_list = []
 
